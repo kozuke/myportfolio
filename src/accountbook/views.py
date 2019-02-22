@@ -9,7 +9,7 @@ class AccountBookListView(ListView):
    #利用するモデルを指定
    model = AccountBook
    #データを渡すテンプレートファイルを指定
-   template_name = 'accountbook/account_book_list.html'
+   template_name = 'accountbook/accountbook_list.html'
 
    #家計簿テーブルの全データを取得するメソッドを定義
    def queryset(self):
